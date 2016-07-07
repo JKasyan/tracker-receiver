@@ -14,7 +14,7 @@ public class Point {
     private String id;
     private long timestamp;
     private double lat;
-    private double lon;
+    private double lng;
     private double speed;
     private double bearing;
     private double altitude;
@@ -52,12 +52,12 @@ public class Point {
         this.lat = lat;
     }
 
-    public double getLon() {
-        return lon;
+    public double getLng() {
+        return lng;
     }
 
-    public void setLon(double lon) {
-        this.lon = lon;
+    public void setLng(double lng) {
+        this.lng = lng;
     }
 
     public double getSpeed() {
@@ -99,7 +99,7 @@ public class Point {
                 ", id='" + id + '\'' +
                 ", timestamp=" + timestamp +
                 ", lat=" + lat +
-                ", lon=" + lon +
+                ", lng=" + lng +
                 ", speed=" + speed +
                 ", bearing=" + bearing +
                 ", altitude=" + altitude +

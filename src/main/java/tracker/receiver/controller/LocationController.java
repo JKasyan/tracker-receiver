@@ -31,7 +31,7 @@ public class LocationController {
         point.setId(String.valueOf(id));
         point.setTimestamp(timestamp);
         point.setLat(lat);
-        point.setLon(lon);
+        point.setLng(lon);
         point.setSpeed(speed);
         point.setBearing(bearing);
         point.setAltitude(altitude);
